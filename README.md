@@ -1,1 +1,0 @@
-# coretechsystems.github.io
