@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <!-- Your ROM Name -->
+  <RomName>AptOS 2.4 Beta</RomName>
+  <VersionName>2.4 Beta - Build AAT1Q-10w1d1b</VersionName>
+  <!-- Your ROM version. MUST be incrementally larger than previous versions -->
+  <!-- Do NOT use letters in your version number. Integers only -->
+  <!-- Previous version will be read from the build.prop -->
+  <VersionNumber type="integer">241011</VersionNumber>
+  <!-- Linking to your files -->
+    <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
+    <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
+    <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
+    <!-- HTTP link will open a web page -->
+    <!-- Direct Link overrides HTTP link -->
+  <DirectUrl>https://qc3.androidfilehost.com/dl/Qgs6FCth8-KJyV-ZLrRS5A/1488976810/457095661767142196/BEGONIA-klteatt-10w1d1b.zip</DirectUrl>
+  <HttpUrl nil="true" />
+  <!-- What version are you issuing? -->
+  <Android>5.0</Android>
+  <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
+  <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
+  <CheckMD5>41a119510534214633eaa7fcd34053f6</CheckMD5>
+  <!-- The filesize of your ROM -->
+  <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
+  <FileSize type="integer">508302848</FileSize>
+  <!-- Developer or Team name. You can put anything here, even a couple of names -->
+  <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
+  <Developer>AptLogic</Developer>
+  <!-- Your ROM or Developer Website. Can be a personal site or your XDA/forum thread -->
+  <!-- OPTIONAL: Enter <Website nil="true" /> to hide this -->
+  <WebsiteURL>https://goo.gl/BZbiL7</WebsiteURL>
+  <!-- Your Donate URL -->
+  <!-- OPTIONAL: Enter <DonateURL nil="true" /> to hide this -->
+  <DonateURL nil="true" />
+  <!-- Put the changelog here... Use Markdown to format it -->
+  <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
+  <Changelog>### AptOS 2.4 Build 10w1d1b
+*Beta Bootanimation
+*New bootanimation binary (thanks @xdanilva/XDA)
+*Made some package names easier to understand.
+*Replaced the File Manager
+*Added Chrome (56.0.2924.87)
+*Added OTA App (2.4b-10w1d1b)</Changelog>
+</ROM>
